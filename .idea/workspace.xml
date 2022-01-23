@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e91dd2c1-781d-4064-80af-ce240431bf62" name="Changes" comment="n">
-      <change beforePath="$PROJECT_DIR$/bootstrap-site-uzduotis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-site-uzduotis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-site-uzduotis/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-site-uzduotis/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="e91dd2c1-781d-4064-80af-ce240431bf62" name="Changes" comment="n" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +82,7 @@
       <workItem from="1642788627525" duration="1308000" />
       <workItem from="1642839709051" duration="34098000" />
       <workItem from="1642881855528" duration="8735000" />
-      <workItem from="1642927985751" duration="18149000" />
+      <workItem from="1642927985751" duration="18452000" />
     </task>
     <task id="LOCAL-00001" summary="n">
       <created>1642852837346</created>
