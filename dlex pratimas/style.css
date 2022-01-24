@@ -40,31 +40,10 @@
 }
 
 
-@media screen and (min-width: 780px) {
-    .container{
-        flex-direction: row;
-    }
+@media screen and (min-width: 760px) {
     .first, .second_block {
-
         height: 100%;
         width: 50%;
     }
 
 }
-/*@media screen and (max-width: 575px) {*/
-/*    .first {*/
-/*        height: 50%;*/
-/*        width: 100%;*/
-/*    }*/
-/*    .second_block{*/
-/*        height: 50%;*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
-/*    .first{*/
-/*        height: 100%;*/
-/*        width: 50%;*/
-/*        background-color: blue;*/
-/*        border: 2px solid;*/
-/*    }*/
-/*}*/
