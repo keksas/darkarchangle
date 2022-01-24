@@ -5,15 +5,16 @@
 .container{
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
 }
 .first{
-    height: 100%;
-    width: 50%;
+    height: 50%;
+    width: 100%;
     background-color: blue;
 }
 .second_block{
-    height:100%;
-    width: 50%;
+    height:50%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -39,19 +40,27 @@
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 780px) {
+    .container{
+        flex-direction: row;
+    }
     .first, .second_block {
+
         height: 100%;
         width: 50%;
     }
 
 }
-@media screen and (max-width: 575px) {
-    .first, .second_block {
-        height: 50%;
-        width: 100%;
-    }
-}
+/*@media screen and (max-width: 575px) {*/
+/*    .first {*/
+/*        height: 50%;*/
+/*        width: 100%;*/
+/*    }*/
+/*    .second_block{*/
+/*        height: 50%;*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 /*    .first{*/
 /*        height: 100%;*/
 /*        width: 50%;*/
