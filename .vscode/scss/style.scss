@@ -1,0 +1,26 @@
+@import 'resets';
+
+$primary-color: #ab31d3;
+$ssecond-color: #63774a;
+$third-color:yellow;
+$font-weights:(
+"regular":400,
+        "medium":500,
+      "bold":700,
+);
+
+
+body{
+  background-color: blue;
+
+}
+.main{
+  width: 80%;
+  margin:0 auto;
+  #{&}_paragraph{
+    font-weight: map-get($font-weights, bold);
+  &:hover{
+    color:pink;
+  }
+  }
+}

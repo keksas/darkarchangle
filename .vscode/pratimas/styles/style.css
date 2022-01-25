@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background-color: red;
+}
+.container .row {
+  height: 200px;
+  color: blue;
+  background-color: #34a339;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container .row .circle {
+  height: 50px;
+  width: 50px;
+  border: solid;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+@import 'var';
+
+.container{
+  background-color:$mybg;
+  height: 100vh;
+  h2{
+    color:$letercolor;}
+    ul{
+      list-style: circle;
+      display: inline-block;
+      li{
+        display: block;
+        height: 100px;
+        width: 100px;
+        background-color:$linkcolors;
+        border-radius: 50%;
+        border:1px solid $bordercolors ;
+        a{
+          color:$letercolor;
+        }
+      }
+
+  }
+}

@@ -1,0 +1,28 @@
+$kol:blue;
+$backcol: #34a339;
+$backcol2: #a9e387;
+
+
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  background-color: red;
+  .row{
+    height: 200px;
+    color: $kol;
+    background-color:$backcol;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .circle{
+      height: 50px;
+      width: 50px;
+      border: solid;
+      border-radius: 50%;
+    }
+    
+  }
+}
