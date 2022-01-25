@@ -18,7 +18,7 @@ $container-height:100%;
     height:$container-height/3;
     width:$container-width/4;
     &:hover{
-      background-image: linear-gradient(red,blue);
+      background-image: linear-gradient(yellow,blue);
     }
     img{
       object-fit: contain;

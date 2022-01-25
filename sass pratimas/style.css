@@ -16,7 +16,7 @@
   width: 25%;
 }
 .container .imgs:hover {
-  background-image: linear-gradient(red, blue);
+  background-image: linear-gradient(yellow, blue);
 }
 .container .imgs img {
   object-fit: contain;
