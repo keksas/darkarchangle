@@ -24,12 +24,11 @@
   animation-fill-mode: forwards;
 }
 h1{
-  display: inline-block;
   @include sizes (200px,500px);
   right: 20px;
   opacity: 0;
   animation: textas forwards 3s;
-  animation-delay:5s;
+  animation-delay:8s;
 }
 span{
   top:200px;

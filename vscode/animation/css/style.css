@@ -87,13 +87,12 @@
 }
 
 h1 {
-  display: inline-block;
   height: 200px;
   width: 500px;
   right: 20px;
   opacity: 0;
   animation: textas forwards 3s;
-  animation-delay: 5s;
+  animation-delay: 8s;
 }
 
 span {
