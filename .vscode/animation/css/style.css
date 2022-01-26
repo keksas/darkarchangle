@@ -28,6 +28,11 @@
     right: -40px;
   }
 }
+@keyframes textas {
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes leaf {
   0% {
     height: 0px;
@@ -79,6 +84,16 @@
   animation: bloom ease-out 1s;
   animation-delay: 5s;
   animation-fill-mode: forwards;
+}
+
+h1 {
+  display: inline-block;
+  height: 200px;
+  width: 500px;
+  right: 20px;
+  opacity: 0;
+  animation: textas forwards 3s;
+  animation-delay: 5s;
 }
 
 span {
